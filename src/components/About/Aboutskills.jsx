@@ -9,7 +9,7 @@ export default function AboutSkills() {
         <div className="skills--left skills--flex">
           <h2>FRONTEND</h2>
           <div className="circle">
-            <img className="skills--icons" src={CodeIcon} />
+            <img className="skills--icons" src={CodeIcon} alt="Code icon" />
           </div>
           <p>
             I love writing clean and functional code, bringing the design to
@@ -27,7 +27,7 @@ export default function AboutSkills() {
         <div className="skills--flex">
           <h2>DESIGN</h2>
           <div className="circle">
-            <img className="skills--icons" src={DesignIcon} />
+            <img className="skills--icons" src={DesignIcon} alt="Design icon" />
           </div>
           <p>
             I prefer simple content and clean design, with the user in focus

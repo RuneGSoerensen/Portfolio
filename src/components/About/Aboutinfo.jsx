@@ -22,7 +22,11 @@ export default function AboutInfo() {
           </p>
         </div>
         <div className="about--info--picture--container">
-          <img className="about--info--picture" src={AboutPicture} alt="" />
+          <img
+            className="about--info--picture"
+            src={AboutPicture}
+            alt="Picture of rune gerner"
+          />
         </div>
       </header>
     </>

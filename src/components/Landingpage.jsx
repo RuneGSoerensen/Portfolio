@@ -23,7 +23,11 @@ export default function LandingPage() {
           </button>
         </div>
       </section>
-      <img className="landing--page--image" src={Landingpageimage} alt="" />
+      <img
+        className="landing--page--image"
+        src={Landingpageimage}
+        alt="Picture of rune gerner"
+      />
     </>
   );
 }
